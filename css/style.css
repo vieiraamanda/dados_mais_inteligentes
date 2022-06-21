@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+.header-top {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    padding: 0 30px;
+    background-color: #F2B705;
+}
+
+.logo {
+    height: 50px;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.headline-title {
+    font-size: 3.5vw;
+    color: #D9042B;
+}
+
+.imagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagens img {
+    margin: 30px 5px 0px 5px;
+    width: 400px;
+}
+
+.botao-conhecer {
+    margin: 20px 0px;
+    font-size: 1.5vw;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #270140;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    width: 80%;
+    margin: 30px auto;
+    font-size: 1.5vw;
+    color: #000000;
+}
+
+.line {
+    border: 1px solid #F2B705;
+    background-color: #F2B705;
+}
+
+

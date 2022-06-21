@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Roteiros</title>
+</head>
+
+<body>
+    <header class="header-top">
+        <img src="./images/logo.png" alt="" class="logo">
+    </header>
+
+    <section class="headline">
+        <h1 class="headline-title">Preparamos roteiros incríveis para você!</h1>
+        <input type="button" value="Quero conhecer!" class="botao-conhecer" onclick="conhecer()">
+    </section>
+
+    <div class="imagens">
+        <img src="./images/sao-paulo.png" alt="">
+        <img src="./images/las-vegas.png" alt="">
+        <img src="./images/moscou.png" alt="">
+    </div>
+
+    <main class="container">
+        <div id="cidades">
+        </div>
+
+        <div class="line">
+        </div>
+
+        <section>
+            <div class="roteiros" id="roteiroSaoPaulo"></div>
+            <div class="roteiros" id="roteiroLasVegas"></div>
+            <div class="roteiros" id="roteiroMoscou"></div>
+        </section>
+
+        <div id="quantos-locais"></div>
+        <section>
+            <div id="bairro-centro">
+            </div>
+            <div id="bairro-downtown">
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
