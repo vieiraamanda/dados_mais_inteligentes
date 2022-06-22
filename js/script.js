@@ -15,8 +15,7 @@ function conhecer() {
 
     // Buscar Roteiros
     const buscaRoteiros = texto.split("#")
-    console.log(buscaRoteiros)
-
+    
     // O conteúdo do roteiro A de cada cidade avaliada.
 
     const roteiroA1 = buscaRoteiros[1]
